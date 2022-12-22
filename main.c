@@ -51,7 +51,6 @@ int main() {
                     if (strlen(word2_clean) > 0) {
                         if (strlen(word1_clean) > strlen(word2_clean)) {
                             printf("-The sentence is not ordered in ascending order.");
-                            return 0;
                         }
                         break;
                     }
